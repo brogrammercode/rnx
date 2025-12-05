@@ -22,7 +22,9 @@ export default function Home() {
 
   return (
     <section className="my-10">
-      <Card image={wall} height={500} />
+      <Card image={wall} height={"h-140"} />
+      <Card image={wall} height={"h-64"} className="mt-2" />
+      <Card image={wall} height={"h-64"} className="mt-2" />
     </section>
   );
 }
